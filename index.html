@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link media="screen" href="css/main.css" rel="stylesheet" type="text/css" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="img/touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" href="img/touch-icon-iphone.png" />
+
+        <script src="js/neb/nebPay.js"></script>
+        <script src="js/neb/nebulas.js"></script>
+        <script>
+            var NebPay = require("nebpay");
+            var Nebulas = require("nebulas");
+            var Neb = Nebulas.Neb;
+            var HttpRequest = Nebulas.HttpRequest;
+            var Account = Nebulas.Account;
+            var Transaction = Nebulas.Transaction;
+            var Unit = Nebulas.Unit;
+
+            var nebPay = new NebPay()
+            var DappAddress = 'n1pjfduA2k517P2n1XPN16xLJMYHbtW9yuV'
+
+            var neb = new Neb();
+            var nas_rate = 1000000000000000000;
+
+            // var nebChainUrl = 'https://mainnet.nebulas.io'
+            var nebChainUrl = 'https://testnet.nebulas.io'
+
+            neb.setRequest(new HttpRequest(nebChainUrl));
+
+            //var glob_chainID = 1001;
+
+            var glob_chainID = 1;
+            Date.prototype.format = function(fmt) {
+                var o = {
+                    "M+": this.getMonth() + 1, //月份
+                    "d+": this.getDate(), //日
+                    "h+": this.getHours(), //小时
+                    "m+": this.getMinutes(), //分
+                    "s+": this.getSeconds(), //秒
+                    "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+                    "S": this.getMilliseconds() //毫秒
+                };
+                if (/(y+)/.test(fmt)) {
+                    fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+                }
+                for (var k in o) {
+                    if (new RegExp("(" + k + ")").test(fmt)) {
+                        fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+                    }
+                }
+                return fmt;
+            }
+        </script>
+
+        <script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+        <script type="text/javascript" src="js/gamejs/yabble.js"></script>
+        <script type="text/javascript" src="js/gamejs/gamejs.min.js"></script>
+        <script type="text/javascript" src="js/lib/utils.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var gamejs;
+                require.setModuleRoot('./js/');
+                require.run('main');
+            });
+        </script>
+        <title>Neb's Escape</title>
+    </head>
+    <body>
+        <div id="preload">
+            <img src="img/loading.gif" />
+            <img src="img/loading-text.png" />
+        </div>
+        <div id="gameWindow">
+            <canvas id="gjs-canvas"></canvas>
+            <div id="gameEnd"></div>
+        </div>
+    </body>
+</html>
