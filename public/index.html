@@ -61,8 +61,8 @@
         <script type="text/javascript" src="js/gamejs/gamejs.min.js"></script>
         <script type="text/javascript" src="js/lib/utils.js"></script>
         <script type="text/javascript">
+            var gamejs;
             $(document).ready(function(){
-                var gamejs;
                 require.setModuleRoot('./js/');
                 require.run('main');
             });
@@ -70,13 +70,7 @@
         <title>Neb's Escape</title>
     </head>
     <body>
-        <div id="preload">
-            <img src="img/loading.gif" />
-            <img src="img/loading-text.png" />
-        </div>
-        <div id="gameWindow">
-            <canvas id="gjs-canvas"></canvas>
-            <div id="gameEnd"></div>
-        </div>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
     </body>
 </html>
