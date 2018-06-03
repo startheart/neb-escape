@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Form />
     <Escape />
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -11,12 +10,10 @@
 
 <script>
 // @ is an alias to /src
-import Form from '@/components/Form.vue'
 import Escape from '@/components/Escape.vue'
 
 export default {
   components: {
-    Form,
     Escape
   }
 }
