@@ -2,7 +2,7 @@
   <div class="form">
     <!-- Form -->
 
-    <el-dialog title="请填写游戏账号" :visible.sync="dialogFormVisible" :close-on-click-modal="false" :close-on-press-escape="false">
+    <el-dialog title="请填写游戏账号" :visible.sync="dialogFormVisible" :close-on-click-modal="false" :close-on-press-escape="false" :show-close="false">
       <el-form :model="form" :rules="rules" ref="form" status-icon>
         <el-form-item label="Neb 钱包地址" :label-width="formLabelWidth" prop="address">
           <el-input v-model="form.address" auto-complete="off" placeholder="输入钱包地址"></el-input>

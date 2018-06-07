@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "ned-escape",
+      "script": "server/index.js"
+    }
+  ]
+}
