@@ -10,9 +10,11 @@
     ]},
     {
         "type":"tooltip","x":250,"y":641,"width":100,"height":100,
-        "text":"Some doors can only be opened when two or more<br/>switches are held down at the same time"},
+        "text":"当开关被触起，光线门会打开~"
+    },
     {
         "type":"tooltip","x":650,"y":641,"width":50,"height":50,
-        "text":"Press <span class='button c'>c</span> to create a clone<br/>Press <span class='button tab'>tab</span> to switch between them"},
+        "text":"按键 <span class='button c'>C</span> 克隆本体<br/>按键 <span class='button tab'>Tab</span> 可以切换控制本体"
+    },
     {"type":"goal","x":890,"y":540}
 ]

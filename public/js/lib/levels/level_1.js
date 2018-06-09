@@ -7,15 +7,15 @@
     ]},
     {
         "type":"tooltip","x":150,"y":641,"width":50,"height":50,
-        "text":"Press the <span class='button left'>left</span> arrow or <span class='button a'>a</span> to move left<br>Press the <span class='button right'>right</span> arrow or <span class='button d'>d</span> to move right"
+        "text":"按键 <span class='button left'>左箭头</span> \/ <span class='button a'>A</span> 向左移动<br> 按键 <span class='button right'>右箭头</span> \/ <span class='button d'>D</span> 向右移动"
     },
     {
         "type":"tooltip","x":350,"y":641,"width":50,"height":50,
-        "text":"Press <span class='button e'>e</span> or <span class='button enter'>enter</span> to activate switches<br>At least one clone must remain at a switch to keep it active"
+        "text":"按键 <span class='button e'>E</span> \/ <span class='button enter'>Enter</span> 控制开关<br>至少需要一个克隆体待着触碰开关"
     },
     {
         "type":"tooltip","x":650,"y":641,"width":50,"height":50,
-        "text":"Press <span class='button c'>c</span> to create a clone<br/>Press <span class='button tab'>tab</span> to switch between them"
+        "text":"按键 <span class='button c'>C</span> 可以克隆本体<br/>按键 <span class='button tab'>Tab</span> 切换克隆体"
     },
     {"type":"goal","x":890,"y":540}
 ]

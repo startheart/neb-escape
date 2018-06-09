@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
         <link media="screen" href="css/main.css" rel="stylesheet" type="text/css" />
 
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
@@ -21,13 +22,15 @@
             var Unit = Nebulas.Unit;
 
             var nebPay = new NebPay()
-            var DappAddress = 'n1pjfduA2k517P2n1XPN16xLJMYHbtW9yuV'
+            // 主网合约地址
+            var DappAddress = 'n1fQ53WHiBK2cmAK6WHnUZfpx7Q7pwHb7Ri'
+            // var DappAddress = 'n1pjfduA2k517P2n1XPN16xLJMYHbtW9yuV'
 
             var neb = new Neb();
             var nas_rate = 1000000000000000000;
 
-            // var nebChainUrl = 'https://mainnet.nebulas.io'
-            var nebChainUrl = 'https://testnet.nebulas.io'
+            var nebChainUrl = 'https://mainnet.nebulas.io'
+            // var nebChainUrl = 'https://testnet.nebulas.io'
 
             neb.setRequest(new HttpRequest(nebChainUrl));
 
@@ -67,7 +70,7 @@
                 require.run('main');
             });
         </script>
-        <title>Neb's Escape</title>
+        <title>Neb's 逃跑计划</title>
     </head>
     <body>
         <div id="app"></div>

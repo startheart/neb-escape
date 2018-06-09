@@ -10,9 +10,9 @@
     ]},
     {
         "type":"tooltip","x":300,"y":641,"width":100,"height":100,
-        "text":"Press <span class='button e'>e</span> or <span class='button enter'>enter</span> to activate switches<br>Some switches will only activate a door when they are off"},
+        "text":"按键 <span class='button e'>E</span> \/ <span class='button enter'>Enter</span> 控制开关<br>有些开关闭合 才能开启门"},
     {
         "type":"tooltip","x":550,"y":641,"width":50,"height":50,
-        "text":"Press <span class='button c'>c</span> to create a clone<br/>Press <span class='button tab'>tab</span> to switch between them"},
+        "text":"按键 <span class='button c'>C</span> 克隆本体<br/>按键 <span class='button tab'>Tab</span> 切换本体"},
     {"type":"goal","x":890,"y":540}
 ]
