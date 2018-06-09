@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.691179fb15f2210e247f910f5d6915a5.js"
+  "/precache-manifest.de62ceaf5114faeddbe6d2c7cc93278a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "neb-adopt"});
