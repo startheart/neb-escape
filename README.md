@@ -1,10 +1,10 @@
-## 星云游戏 之 逃跑计划
+##星云游戏 之 逃跑计划
 
 你能在每一关中获得三颗星成绩吗?
 
 利用星云钱包将你的游戏成绩上链吧 ~ ！
 
-## 游戏指南
+##游戏指南
 
 首先，你需要创建一个星云钱包：https://blog.nebulas.io/2018/04/12/creating-a-nas-wallet/
 
@@ -24,7 +24,7 @@
 
 需要安装星云链的web钱包Chrome插件：https://github.com/nebulasio/WebExtensionWallet
 
-## 使用技术
+##使用技术
 
  * HTML5
  * JavaScript
@@ -33,7 +33,11 @@
 
 
 ##Screenshots
+
 <img src="http://203.76.211.220:5000/img/screenshot-1.png" height="200" />&nbsp;
 <img src="http://203.76.211.220:5000/img/screenshot-2.png" height="200" />
 <img src="http://203.76.211.220:5000/img/screenshot-3.png" height="200" />&nbsp;
 <img src="http://203.76.211.220:5000/img/screenshot-4.png" height="200" />
+
+##特别鸣谢
+[星云官网](https://nebulas.io/)
